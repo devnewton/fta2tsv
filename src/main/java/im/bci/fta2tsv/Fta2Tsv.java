@@ -24,6 +24,7 @@ public class Fta2Tsv {
 
     public static void main(String[] args) throws InterruptedException {
         OkHttpClient client = new OkHttpClient();
+        client.dispatcher().setMaxRequests(1);
         for (final String tribune : TRIBUNES) {
             File outputDir = new File(OUTPUT_DIR, tribune);
             outputDir.mkdirs();
