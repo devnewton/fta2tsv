@@ -12,9 +12,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>io.parallec</groupId>
-            <artifactId>parallec-core</artifactId>
-            <version>0.10.5</version>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.8.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -25,6 +25,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>1.3.2</version>
         </dependency>
     </dependencies>
 </project>
